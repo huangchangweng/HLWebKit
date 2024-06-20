@@ -1,0 +1,6 @@
+framework module HLWebKit {
+  umbrella header "HLWebKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - HLWebKit (0.1.0)
+
+DEPENDENCIES:
+  - HLWebKit (from `../`)
+
+EXTERNAL SOURCES:
+  HLWebKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HLWebKit: 7b0283993a8988afc5565bf75bbf5db53bf0bc16
+
+PODFILE CHECKSUM: 89b329dab81bb346edc3624ee29e38499dc503fa
+
+COCOAPODS: 1.14.3
