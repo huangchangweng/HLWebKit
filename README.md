@@ -42,18 +42,20 @@ pod 'HLWebKit', '0.1.0'
 - (void)configurationParams
 {
     self.webView.hlDelegate = self;
-    
+
     // 开启日志打印
     [self.webView openLog:YES];
-    
+
     // JS交互相关
     [self.webView addScriptMessageHandler:@"jsToNative"];
-    
+
     // H5支付相关
     self.webView.wxReferer = @"www.xxx.com";
     self.webView.zfbAppUrlScheme = @"www.xxx.com";
 }
 ```
+
+> 注意：如果使用H5支付需要在`TARGETS`-`Info`-`URL Types`中添加URL Schemes
 
 ```objc
 /**
@@ -118,8 +120,6 @@ pod 'HLWebKit', '0.1.0'
 # Requirements
 
 iOS 9.0 +, Xcode 7.0 +
-
-
 
 # Version
 
